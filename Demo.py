@@ -117,7 +117,7 @@ data.pop()
 print(data) """
 
 
-user =["user1","user2"]
+""" user =["user1","user2"]
 password =[123,456]
 while True:
     username =input("Enter name")
@@ -130,3 +130,55 @@ while True:
             
     else :
         print("not login")
+ """
+""" 
+for i in range(10):
+    print(i)     
+ 
+for i in range(2,10):
+    print(i)
+for i in range(2,10,2):
+    print(i) """
+    
+#list  []
+
+#dict { key :value}
+
+""" 
+data = {"id1":1,"uname":"user","age":30}
+print(data)
+print(data["id1"])
+print(data["uname"]) """
+data = {"id":[3,4,5],"name":["user1","user2","user3"]}
+data["salary"]=[300,400,500]
+print(data)
+data.update({"dept":["it","sal","acc"]})
+print(data)
+data.pop("name")
+print(data)
+print(data.items())
+
+
+
+
+""" print(data["name"])
+print(data.keys())
+print(data.values())
+for d in data:
+    print(d)
+for d in data.keys():
+    print(d)
+    print(d)
+for d in data.values():
+    print(d) """
+""" for d in data.keys():
+    print(d)
+    if d=="name":
+        while True:
+            name1 =input("enter name")
+            print("**************")
+            print(d)
+            if name1 in data[d] :
+                print("login")
+                break
+ """        
