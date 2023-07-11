@@ -149,14 +149,14 @@ data = {"id1":1,"uname":"user","age":30}
 print(data)
 print(data["id1"])
 print(data["uname"]) """
-data = {"id":[3,4,5],"name":["user1","user2","user3"]}
+""" data = {"id":[3,4,5],"name":["user1","user2","user3"]}
 data["salary"]=[300,400,500]
 print(data)
 data.update({"dept":["it","sal","acc"]})
 print(data)
 data.pop("name")
 print(data)
-print(data.items())
+print(data.items()) """
 
 
 
@@ -182,3 +182,59 @@ for d in data.values():
                 print("login")
                 break
  """        
+ 
+ 
+ #data = {key:value}
+"""  
+data ={"id":1,"name":"user","salary":400}
+print(data)
+for d in data:
+    print(d)
+for d in data.keys():
+    print(d)
+print("******************")
+for d in data.values():
+    print(d)
+print("******************")
+for d in data.items():
+    print(d)
+data["age"] =40
+print(data)
+print("******************")
+print(data['name'])
+print("******************")
+data.update({"dept":"it"})
+print(data)
+ """""" 
+data = {"id":[1,2,3],"name":["user1","user2","user3"]}
+print(data)
+print(data['id']) """
+#id=[1,2,3,4]
+#name["user1","user2","user3","user4"]
+
+dataset ={
+    "user":["user1","user2"],
+    "password":["1234","5678"],
+    "product":["product1","product2"],
+    "rate":[300,400],
+}
+
+while True:
+   
+    print("*********************")
+    name = input("enter name")
+    pos =-1
+    for i in dataset["user"]:
+        pos = pos+1
+        if(name == i):
+            password = input("enter password")
+            if( password==dataset["password"][pos]):
+                print("user login")
+                for j in range(len(dataset['product'])):
+                   
+                    print(dataset["product"][j],"",dataset["rate"][j])
+                break
+                    
+            
+            
+        

@@ -1,0 +1,4 @@
+int pin =1222;
+if(pin==1111){
+    System.out.print("open")
+}
